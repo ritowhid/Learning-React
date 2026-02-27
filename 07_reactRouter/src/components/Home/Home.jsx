@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import dawnImg from '../../assets/dawn.jpg'; // local image import
+import nomadImg from '../../assets/nomad.jpg'; // local image import
+import cycleImg from '../../assets/cycle.png'; // local imcyclemport
 
 export default function Home() {
   return (
@@ -23,12 +24,12 @@ export default function Home() {
         </div>
 
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full">
-          <img className="w-96 mx-auto sm:mx-0" src={dawnImg} alt="dawn" />
+          <img className="w-96 mx-auto sm:mx-0" src={nomadImg} alt="nomad" />
         </div>
       </aside>
 
       <div className="grid place-items-center sm:mt-20">
-        <img className="sm:w-96 w-48" src={dawnImg} alt="dawn" />
+        <img className="sm:w-96 w-48" src={cycleImg} alt="cycle" />
       </div>
 
       <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
